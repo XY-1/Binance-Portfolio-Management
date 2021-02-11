@@ -181,6 +181,7 @@ class account:
 		print(trade_in_base, currency_sells)
 
 		for i, (currency, base_volume) in enumerate(zip(quotes + currencies, currency_sells)):
+			print(currency, base_volume)
 			if base_volume >= 0:
 				continue
 
