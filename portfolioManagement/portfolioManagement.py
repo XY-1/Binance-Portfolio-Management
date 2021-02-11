@@ -41,7 +41,7 @@ class portfolioManager:
 		target_portfolio = self.calculate_next_portfolio()
 		
 		trade = target_portfolio - self.portfolio
-		print(target_portfolio)	
+		print('target portfolio', target_portfolio)	
 
 		self.execute_trade(trade)
 		
