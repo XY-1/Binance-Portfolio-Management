@@ -6,7 +6,8 @@ from matplotlib import pyplot as plt
 import numpy as np
 
 DATABASE = 'data/futures_candles_30m.db'
-CURRENCIES = ['BTC', 'ETH', 'EOS', 'LTC', 'BNB', 'XRP', 'BCH', 'ADA', 'XMR']
+#CURRENCIES = ['BTC', 'ETH', 'EOS', 'LTC', 'BNB', 'XRP', 'BCH', 'ADA', 'XMR']
+CURRENCIES = ['ETH', 'EOS', 'FTT', 'LTC', 'BCH', 'ADA', 'XRP', 'LSK', 'FCT', 'XEM', 'MONA', 'XLM', 'QTMU', 'BAT', 'IOST', 'ENJ', 'DOGE', 'DOT', 'LINK', 'ATOM', 'TRX', 'IOTA' ,'VET', 'XTZ', 'THETA', 'NEO', 'FTT', 'MKR', 'DASH', 'ETC', 'ZRX', 'DCR', 'ZIL', 'WAVES' ,'SC', 'AE', 'MANA','NANO','ONT','ZEC','DGB','OMG','HBAR','ICX','ZEN','KNC','BNT','RVN','OCEAN','MATIC']
 
 def main():
 	#get all the candles and calculate the price changes
