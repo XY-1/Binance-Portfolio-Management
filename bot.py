@@ -11,7 +11,7 @@ MAMR_MGR = 'data.pkl'
 BINANCE_BOT = 'bot.pkl'
 
 #Currencies to Include in selection
-CURRENCIES = ['ETH', 'EOS', 'FTT', 'LTC', 'BCH', 'ADA']
+CURRENCIES = ['ETH', 'EOS', 'FTT', 'LTC', 'BCH', 'ADA', 'XRP', 'LSK', 'FCT', 'XEM', 'MONA', 'XLM', 'QTMU', 'BAT', 'IOST', 'ENJ', 'DOGE', 'DOT', 'LINK', 'ATOM', 'TRX', 'IOTA' ,'VET', 'XTZ', 'THETA', 'NEO', 'FTT', 'MKR', 'DASH', 'ETC', 'ZRX', 'DCR', 'ZIL', 'WAVES' ,'SC', 'AE', 'MANA','NANO','ONT','ZEC','DGB','OMG','HBAR','ICX','ZEN','KNC','BNT','RVN','OCEAN','MATIC']
 #Quote Assets
 QUOTES = ['BTC', 'BNB']
 RISKLESS = 'USDT'
