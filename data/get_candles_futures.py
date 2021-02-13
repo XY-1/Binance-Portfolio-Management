@@ -8,7 +8,9 @@ Author: Alfred Holmes, https://github.com/alfredholmes
 import requests, json, sqlite3, datetime, decimal
 
 #MARKETS = ['BTCUSDT', 'ETHBTC', 'BNBBTC', 'EOSBTC']
-MARKETS = ['BTCUSDT', 'ETHUSDT', 'EOSUSDT', 'LTCUSDT', 'BNBUSDT', 'XRPUSDT', 'BCHUSDT', 'ADAUSDT', 'XMRUSDT']
+#MARKETS = ['BTCUSDT', 'ETHUSDT', 'EOSUSDT', 'LTCUSDT', 'BNBUSDT', 'XRPUSDT', 'BCHUSDT', 'ADAUSDT', 'XMRUSDT']
+MARKETS = ['BTCUSDT', 'ETHUSDT', 'EOSUSDT', 'LTCUSDT', 'BNBUSDT', 'XRPUSDT', 'BCHUSDT', 'ADAUSDT', 'XMRUSDT', 'LINKUSDT', 'XLMUSDT','DOGEUSDT','ALGOUSDT','ATOMUSDT','TRXUSDT','XEMUSDT','IOTAUSDT','VETUSDT']
+
 START_DATE = datetime.datetime(year=2020, month=1, day=1)
 N = 1000
 INTERVAL = '30m'
