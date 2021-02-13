@@ -46,6 +46,7 @@ def main():
 	plt.figure(1)
 
 	for i, currency in enumerate(['USDT', 'BTC'] + CURRENCIES):
+		print(currency)
 		plt.plot([p[i] for p in manager.portfolios], label=currency)
 	plt.legend()
 
