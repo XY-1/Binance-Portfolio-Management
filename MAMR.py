@@ -7,8 +7,9 @@ import numpy as np
 
 #need to run data/get_candles_spot.py
 DATABASE = 'data/candles_12h.db'
-CURRENCIES = ['BTC', 'ETH', 'EOS', 'LTC', 'BNB', 'XRP', 'BCH', 'ADA', 'XMR']
+#CURRENCIES = ['BTC', 'ETH', 'EOS', 'LTC', 'BNB', 'XRP', 'BCH', 'ADA', 'XMR']
 #CURRENCIES = ['BTC', 'ETH', 'EOS', 'LTC', 'BNB', 'BCH', 'ADA']
+CURRENCIES = ['ETH', 'EOS', 'LTC', 'BCH', 'ADA', 'XRP', 'LSK', 'FCT', 'XEM', 'MONA', 'XLM', 'QTMU', 'BAT', 'IOST', 'ENJ', 'DOGE', 'DOT', 'LINK', 'ATOM', 'TRX', 'IOTA' ,'VET', 'XTZ', 'THETA', 'NEO', 'FTT', 'MKR', 'DASH', 'ETC', 'ZRX', 'DCR', 'ZIL', 'WAVES' ,'SC', 'AE', 'MANA','NANO','ONT','ZEC','DGB','OMG','HBAR','ICX','ZEN','KNC','BNT','RVN','OCEAN','MATIC']
 
 def main():
 	#get all the candles and calculate the price changes
